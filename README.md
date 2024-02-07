@@ -13,7 +13,7 @@ Classification des Légos: Après avoir découpé l'image en tuiles, mon algorit
 Visualisation des Prédictions: Une fois que les prédictions sont effectuées, mon algorithme reconstruit l'image initiale en assemblant les tuiles tout en ajoutant une bordure colorée autour de chaque tuile en fonction de la classe prédite. Cela offre une visualisation claire des prédictions sur l'image complète.
 
 ## Performance
-L'algorithme a été entraîné sur un ensemble de données comprenant 200 tuiles, avec cinq classes différentes (dont une pour les tuiles sans légos). Lors de l'évaluation sur un échantillon de test représentant 20% des données, mon algorithme a atteint une précision de 0.61, démontrant ainsi sa capacité à détecter et classer les légos.
+L'algorithme a été entraîné sur un ensemble de données comprenant 104 tuiles, avec cinq classes différentes (dont une pour les tuiles sans légos). Lors de l'évaluation sur un échantillon de test représentant 25% des données, mon algorithme a atteint une précision de 0.64, démontrant ainsi sa capacité à détecter et classer les légos.
 
 ## Utilisation
 Pour utiliser cet algorithme, suivez ces étapes :
@@ -23,8 +23,8 @@ Installez les bibliothèques nécessaires répertoriées dans le fichier require
 Téléchargez le modèle VGG16 pré-entrainé.
 Utilisez l'algorithme de tiling et de classification (Lego_detection.ipynb) pour :
 - découper une image de tas de légos en tuiles 
-- prédire la classe de chaque tuile.
-- assembler les tuiles en une seule image et visualisez les prédictions.
+- prédire la classe de chaque tuile
+- assembler les tuiles en une seule image et visualisez les prédictions
 
 ## Contributions
 Les contributions sont les bienvenues! Si vous avez des suggestions d'amélioration, des rapports de bugs ou des idées pour de nouvelles fonctionnalités, n'hésitez pas à ouvrir une issue ou à soumettre un pull request.
