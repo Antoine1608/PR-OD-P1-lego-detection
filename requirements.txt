@@ -1,0 +1,9 @@
+scikit-image
+keras
+tensorflow
+pandas
+numpy
+PIL
+CV2
+plot_keras_history
+openpyxl
